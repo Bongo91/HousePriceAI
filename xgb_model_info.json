@@ -1,0 +1,20 @@
+{
+    "Descripci\u00f3n": "Modelo XGBoost optimizado para predicci\u00f3n de precios de viviendas",
+    "Variables Utilizadas": [
+        "OverallQual",
+        "GrLivArea",
+        "TotalBsmtSF",
+        "1stFlrSF",
+        "BsmtFinSF1",
+        "2ndFlrSF",
+        "GarageCars",
+        "YearBuilt",
+        "GarageArea"
+    ],
+    "Rendimiento (Test)": {
+        "RMSE": 28524.277586,
+        "R\u00b2": 0.893924,
+        "MAE": 19039.135314
+    },
+    "Instrucciones": "Para usar este modelo, cargarlo con joblib.load('xgb_optimized_model.pkl') y usar .predict(X) sobre nuevos datos."
+}
